@@ -1,0 +1,150 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    @media (max-width: 600px){
+        .img,.html, .div {
+          width: 400px;
+          height:400px;
+        }
+    }
+     
+}
+.maquina {
+    height: 500px;
+    width: 480px;
+    padding: 20px;
+    margin: 20px;
+}
+.maquina-atualizada {
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+.moedor{
+    width: 50%;
+    height: 480px;
+}
+.moedor1 {
+    width: 50%;
+    height: 600px;
+    padding: 10px;
+}
+.forno {
+    width: 50%;
+    height: 600px;
+}
+.forno1 {
+    width: 600px;
+    height: 600px;
+}
+.forno2 {
+    width: 50%;
+    height: 300px;   
+}
+.vitrine {
+    width: 400px;
+    height: 500px;
+}
+.freezer {
+    width: 600px;
+    height: 700px;
+}
+.freezer2 {
+    width: 500px;
+    height: 500px;
+}
+.expositora {
+    width: 700px;
+    height: 600px;
+}
+.expositora1{
+    width: 800px;
+    height: 700px;
+}
+.cxborra{
+    width: 500px;
+    height: 500px;
+
+}
+.pitcher {
+    width: 400px;
+    height: 600px;
+}
+
+.tamper {
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.bloco1 {
+    background-color: brown;
+    width: 100%;
+    height: 1650px;
+}
+.bloco2 {
+    background-color: blue;
+    width: 100%;
+    height: 1200px;
+}
+.bloco3 {
+    background-color: rgb(10, 53, 53);
+    width: 100%;
+    height: 1000px;
+}
+.bloco4 {
+    background-color: rgb(51, 51, 43);
+    width: 100%;
+    height: 650px;
+
+}
+.bloco5{
+    background-color: rgb(80, 112, 112);
+    width: 100%;
+    height: 1450px;
+    
+}
+.bloco6{
+    background-color: aquamarine;
+    width: 100%;
+    height: 1390px;
+
+}
+.bloco7{
+    background-color: rgb(223, 81, 107);
+    width: 100%;
+    height: 580px;
+
+}
+.bloco8{
+    background-color: blueviolet;
+    width: 100%;
+    height: 670px;
+
+}
+
+.bloco10{
+background-color: rgb(56, 53, 53);
+width: 100%;
+height: 400px;
+}
+.bloco9{
+    background-color: blue;
+    width: 600px;
+    height: 600px;
+
+}
+.bloco4{
+
+}
