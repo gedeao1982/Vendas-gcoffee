@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     @media (max-width: 600px){
         .img,.html, .div {
           width: 400px;
@@ -21,14 +21,29 @@ body {
     height: 500px;
     margin: 20px;
 }
+@media(max-width: 600px){
+    .maquina, .maquina-atualizada {
+        width: 250px;
+        height: 200px;
+        flex-direction: column;
+        margin: auto;
+    }
+}
 .moedor{
-    width: 50%;
+    width: 38%;
     height: 480px;
 }
 .moedor1 {
-    width: 50%;
+    width: 38%;
     height: 600px;
     padding: 10px;
+}
+@media(max-width:600px){
+.moedor,.moedor1 {
+    width: 60%;
+    height: 300px;
+    margin: auto;
+ }   
 }
 .forno {
     width: 50%;
@@ -42,6 +57,14 @@ body {
     width: 50%;
     height: 300px;   
 }
+@media(max-width: 600px){
+    .forno, .forno1,.forno2,.cxborra {
+        width: 75%;
+        height: 200px;
+        flex-direction: column;  
+        margin: auto;  
+    }
+}
 .vitrine {
     width: 400px;
     height: 500px;
@@ -54,6 +77,19 @@ body {
     width: 500px;
     height: 500px;
 }
+@media(max-width:600px){
+    .freezer1, .freezer2, .vitrine{
+        width: 250px;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+@media(max-width:600px){
+    .bloco1, .bloco3,.bloco5,.bloco6 {
+        height: 200px;
+        margin: auto;
+    }
+}
 .expositora {
     width: 700px;
     height: 600px;
@@ -62,6 +98,21 @@ body {
     width: 800px;
     height: 700px;
 }
+@media (max-width:600px) {
+    .expositora,.expositora1,.freezer {
+        width: 100%;
+        height: 250px;
+        flex-direction: column;
+        margin: auto;
+    }
+}
+@media (max-width: 600px) {
+    .bloco6 {
+        height: 500px;
+        margin: auto;
+    }
+}
+
 .cxborra{
     width: 500px;
     height: 500px;
@@ -89,58 +140,58 @@ body {
     
 }
 .bloco1 {
-    background-color: brown;
-    width: 100%;
-    height: 1650px;
+
+    width: 90%;
+
 }
 .bloco2 {
-    background-color: blue;
+   
     width: 100%;
-    height: 1200px;
+    height: auto;
 }
 .bloco3 {
-    background-color: rgb(10, 53, 53);
+   
     width: 100%;
-    height: 1000px;
+    height: auto;
 }
 .bloco4 {
-    background-color: rgb(51, 51, 43);
+   
     width: 100%;
     height: 650px;
 
 }
 .bloco5{
-    background-color: rgb(80, 112, 112);
+  
     width: 100%;
-    height: 1450px;
+    height: auto;
     
 }
 .bloco6{
-    background-color: aquamarine;
+  
     width: 100%;
-    height: 1390px;
+    height: auto;
 
 }
 .bloco7{
-    background-color: rgb(223, 81, 107);
+ 
     width: 100%;
     height: 580px;
 
 }
 .bloco8{
-    background-color: blueviolet;
+  
     width: 100%;
     height: 670px;
 
 }
 
 .bloco10{
-background-color: rgb(56, 53, 53);
+
 width: 100%;
 height: 400px;
 }
 .bloco9{
-    background-color: blue;
+  
     width: 600px;
     height: 600px;
 
