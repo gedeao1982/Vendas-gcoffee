@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
     padding: 10px;
+}
     @media (max-width: 600px){
         .img,.html, .div {
           width: 400px;
@@ -9,12 +10,15 @@ body {
         }
     }
      
+
+.titulo {
+    margin-left: 5%;
 }
 .maquina {
     height: 500px;
     width: 480px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 .maquina-atualizada {
     width: 500px;
@@ -79,7 +83,7 @@ body {
 }
 @media(max-width:600px){
     .freezer1, .freezer2, .vitrine{
-        width: 250px;
+        width: 350px;
         flex-direction: column;
         margin: auto;
     }
